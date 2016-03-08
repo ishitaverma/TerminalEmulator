@@ -115,7 +115,6 @@ int main(int argc, char *argv[])
 		errorstatus=startprog(myargs);
 	}
 	while(errorstatus);
-	
 	free(inputline);
 	free(myargs);
 }
